@@ -1,4 +1,5 @@
 set -g default-command "reattach-to-user-namespace -l $SHELL"
+tmux_conf_copy_to_os_clipboard=true
 # tmux display things in 256 colors
 #set -g default-terminal "tmux-256color-italic"
 set -g default-terminal "screen-256color"
